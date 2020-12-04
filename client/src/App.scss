@@ -1,0 +1,10 @@
+@use './partials/variables' as *;
+
+*{
+    font-family: 'Avenir';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $walmart-magenta;
+}

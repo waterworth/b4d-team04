@@ -1,0 +1,126 @@
+@use '../../partials/variables' as *;
+
+.chatbox{
+    width: 70%;
+    margin: 4rem auto;
+    display: flex;
+    flex-direction: column;
+    border-radius: 50px;
+    background-color: $walmart-white;
+    &__heading{
+        display: flex;
+        align-items: center;
+        background-color: $walmart-blue;
+        color: $walmart-white;
+        margin: 0;
+        font-size: 1.2rem;
+        padding: 2rem 0 1rem 2rem;
+        border-radius: 40px 40px 0 0;
+    }
+    &__header-icon{
+        height: 2.5rem;
+        width: 2.5rem;
+        margin-right: 1rem;
+    }
+    &__logo-right{
+        position: absolute;
+        height: 10rem;
+        width: 10rem;
+        padding: 1rem;
+        top: 4%;
+        right: 10%;
+        background-color: white;
+        border-radius: 15rem;
+        &:hover{
+            border: 0.5rem solid $walmart-red;
+        }
+    }
+    &__messages{
+        margin-top: 3rem;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        justify-items: flex-end;
+    }
+    &__message{
+        display: flex;
+    }
+    &__icon{
+        height: 3.75rem;
+        width: 3.75rem;
+        margin-top: 1rem;
+        margin-left: 2rem;
+    }
+    &__bot-message{
+        background-color: $walmart-yellow;
+        color: $walmart-black;
+        border-radius: 50px;
+        font-size: 1rem;
+        padding: 0.6rem 3rem;
+        width: 50%;
+        margin-left: 0.5rem;
+        margin-bottom: 2.5rem;
+    }
+    &__user-message{
+        background-color: $walmart-blue;
+        color: white;
+        border-radius: 50px;
+        font-size: 1rem;
+        padding: 0.6rem 3rem;
+        width: 50%;
+        margin: 0 2rem 2.5rem auto;
+    }
+    &__select{
+        margin-left: 2rem;
+        margin-bottom: 1rem;
+    }
+    &__button{
+        border: 2px solid $walmart-darkblue;
+        background-color: #fff;
+        border-radius: 50px;
+        font-size: 1rem;
+        padding: 0.6rem 3rem;
+        width: 25;
+        margin-right: 1.5rem;
+        &:hover, :active{
+            background-color: $walmart-darkblue;
+            color: white;
+        }
+    }
+    &__bottom{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        background-color: #f2f2f2;
+        padding: 0 3rem;
+        border-radius: 0 0 40px 40px;
+    }
+    &__textarea{
+        height: 4.5rem;
+        flex-grow: 1;
+        margin-right: 1rem;
+        resize: none;
+        border: none;
+        background-color: #f2f2f2;
+        padding: 1.5rem 0;
+        font-size: 1rem;
+        line-height: 1.5rem;
+        &:focus{
+            outline:none;
+        }
+    }
+    &__send{
+        background-color: $walmart-blue;
+        color: white;
+        border: none;
+        font-size: 1rem;
+        height: 100%;
+        padding: 0.5rem 1rem;
+        border-radius: 1.5rem;
+            &:hover{
+                background-color: $walmart-darkblue;
+            }
+
+    }
+}
+
