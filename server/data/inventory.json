@@ -1,0 +1,307 @@
+[
+    {
+        "id": "a6eab832-6dad-4be7-8d79-1fe2461f1002",
+        "name": "Red Gala",
+        "type": "Apple",
+        "aisle": "Produce",
+        "soldIn": "singles",
+        "image": "red-gala.jpg",
+        "categoryPath": [
+            "fruit"
+        ],
+        "price": 79,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "85c55ceb-0724-4e8b-97c8-012faf060da1",
+        "name": "Honeycrisp",
+        "type": "Apple",
+        "aisle": "Produce",
+        "soldIn": "singles",
+        "image": "honeycrisp.jpg",
+        "categoryPath": [
+            "fruit"
+        ],
+        "price": 79,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "2ff01bea-1887-405e-a25b-5dbbdda3e207",
+        "name": "Macintosh",
+        "type": "Apple",
+        "aisle": "Produce",
+        "soldIn": "singles",
+        "image": "macintosh.jpg",
+        "categoryPath": [
+            "fruit"
+        ],
+        "price": 79,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "822a57f6-4573-4225-8691-5ab5ad2adbaa",
+        "name": "Red Gala",
+        "type": "Apple",
+        "aisle": "Produce",
+        "soldIn": "singles",
+        "image": "red-gala.jpg",
+        "categoryPath": [
+            "fruit"
+        ],
+        "price": 79,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "76d973d6-c3e9-4d0b-9ee2-c86a9fd4f87e",
+        "name": "Red Delicious",
+        "type": "Apple",
+        "aisle": "Produce",
+        "soldIn": "singles",
+        "image": "red-delicious.jpg",
+        "categoryPath": [
+            "fruit"
+        ],
+        "price": 79,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "e447db32-24aa-4791-b562-f28c615f4552",
+        "name": "Fuji",
+        "type": "Apple",
+        "aisle": "Produce",
+        "soldIn": "singles",
+        "image": "fuji.jpg",
+        "categoryPath": [
+            "fruit"
+        ],
+        "price": 79,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "8e63661d-f97d-4d00-aef8-1cedf9dc1369",
+        "name": "Spinach",
+        "type": "Greens",
+        "aisle": "Produce",
+        "soldIn": "bunch",
+        "image": "spinach.jpg",
+        "categoryPath": [
+            "salad",
+            "greens",
+            "vegetable"
+        ],
+        "price": 179,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "b0de48be-637d-4a40-9508-bdac2cc04822",
+        "name": "Asparagus",
+        "type": "Asparagus",
+        "aisle": "Produce",
+        "soldIn": "bunch",
+        "image": "asparagus.jpg",
+        "categoryPath": [
+            "greens",
+            "vegetable"
+        ],
+        "price": 466,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "21156b8d-4ec3-4a20-b410-f193f9728530",
+        "name": "Brocolli Stalk",
+        "type": "Greens",
+        "aisle": "Produce",
+        "soldIn": "bunches",
+        "image": "brocolli-stalk.jpg",
+        "categoryPath": [
+            "greens",
+            "vegetable"
+        ],
+        "price": 247,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    },
+    {
+        "id": "dbfc83c1-3c63-49f3-907f-a83d443fc8d2",
+        "name": "Brocolli Crowns",
+        "type": "Greens",
+        "aisle": "Produce",
+        "soldIn": "bunches",
+        "image": "brocolli-crown.jpg",
+        "categoryPath": [
+            "greens",
+            "vegetable"
+        ],
+        "price": 317,
+        "inStock": [
+            {
+                "quantity": 20,
+                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+            },
+            {
+                "quantity": 20,
+             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe",
+            },
+            {
+                "quantity": 20,
+             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+            },
+            {
+                "quantity": 20,
+             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
+            }
+        ]
+    }
+]

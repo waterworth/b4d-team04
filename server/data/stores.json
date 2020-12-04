@@ -1,0 +1,102 @@
+[
+    {
+        "name": "Walmart Supercentre",
+        "id": "9dfe644b-1e82-4ed3-951d-5b87ac070f22",
+        "address": {
+            "street": "3585 Grandview Highway",
+            "city": "Vancouver",
+            "province": "British Columbia",
+            "postalCode": "V5M 2G7"
+        },
+        "phoneNumber": "6044356905",
+        "hoursOfOperation": {
+            "monday": "7am - 11pm",
+            "tuesday": "7am - 11pm",
+            "wednesday": "7am - 11pm",
+            "thursday": "7am - 11pm",
+            "friday": "7am - 11pm",
+            "saturday": "7am - 11pm",
+            "sunday": "7am - 11pm"
+        }
+    },
+    {
+        "name": "Walmart Supercentre",
+        "id": "72566634-6a11-4f11-aedc-b16279411835",
+        "address": {
+            "street": "925 Marine Dr",
+            "city": "North Vancouver",
+            "province": "British Columbia",
+            "postalCode": "V7P 1S2"
+        },
+        "phoneNumber": "6049846830",
+        "hoursOfOperation": {
+            "monday": "7am - 11pm",
+            "tuesday": "7am - 11pm",
+            "wednesday": "7am - 11pm",
+            "thursday": "7am - 11pm",
+            "friday": "7am - 11pm",
+            "saturday": "7am - 11pm",
+            "sunday": "7am - 11pm"
+        }
+    },
+    {
+        "name": "Walmart Supercentre",
+        "id": "b2cde5f1-f1a1-403c-bacf-8fcc545a6e85",
+        "address": {
+            "street": "4545 Central Blvd",
+            "city": "Burnaby",
+            "province": "British Columbia",
+            "postalCode": "V5H 4J5"
+        },
+        "phoneNumber": "7783281120",
+        "hoursOfOperation": {
+            "monday": "7am - 11pm",
+            "tuesday": "7am - 11pm",
+            "wednesday": "7am - 11pm",
+            "thursday": "7am - 11pm",
+            "friday": "7am - 11pm",
+            "saturday": "7am - 11pm",
+            "sunday": "7am - 11pm"
+        }
+    },
+    {
+        "name": "Walmart Supercentre",
+        "id": "e05a6612-8cd9-4592-812d-38be95c7acfe",
+        "address": {
+            "street": "9251 Alderbridge Way",
+            "city": "Richmond",
+            "province": "British Columbia",
+            "postalCode": "V6X 1C5"
+        },
+        "phoneNumber": "6042884395",
+        "hoursOfOperation": {
+            "monday": "7am - 11pm",
+            "tuesday": "7am - 11pm",
+            "wednesday": "7am - 11pm",
+            "thursday": "7am - 11pm",
+            "friday": "7am - 11pm",
+            "saturday": "7am - 11pm",
+            "sunday": "7am - 11pm"
+        }
+    },
+    {
+        "name": "Walmart Supercentre",
+        "id": "9394dc82-8db8-4102-b5b1-b25fb569ebc3",
+        "address": {
+            "street": " 805 Boyd St",
+            "city": "New Westminster",
+            "province": "British Columbia",
+            "postalCode": "V3M 5G7"
+        },
+        "phoneNumber": "6045241291",
+        "hoursOfOperation": {
+            "monday": "7am - 11pm",
+            "tuesday": "7am - 11pm",
+            "wednesday": "7am - 11pm",
+            "thursday": "7am - 11pm",
+            "friday": "7am - 11pm",
+            "saturday": "7am - 11pm",
+            "sunday": "7am - 11pm"
+        }
+    }
+]
