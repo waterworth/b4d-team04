@@ -17,7 +17,6 @@ export default class MessageList extends Component {
 
     componentDidUpdate(){
         if(this.state.messages !== this.props.messages){
-            console.log('Hello');
             this.setState({
                 messages: this.props.messages
             })

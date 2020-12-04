@@ -23,15 +23,23 @@ export default class ChatBox extends Component {
     }
     handleSubmit(e){
         e.preventDefault();
+        if(this.state.update !== '') {
         this.setState(prevState => ({
             messages: [...prevState.messages, {isBot: false, message: prevState.update} ],
             update: '',
         }))
     }
-
-    
+    }
     handleChange(e){
         this.setState({update: e.target.value})
+    }
+
+    botResponse = () => {
+    }
+
+    componentDidUpdate(){
+        this.botResponse();
+
     }
 
    
