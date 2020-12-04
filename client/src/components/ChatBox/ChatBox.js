@@ -2,8 +2,10 @@ import React, { Component } from 'react';
 import './ChatBox.scss';
 import SamIconLarge from '../../assets/sam-icon-large.png';
 import ChatIcon from '../../assets/chat-icon.png';
+import axios from 'axios';
 
 import MessageList from '../MessageList/MessageList';
+import ItemList from '../ItemImages/ItemList';
 
 export default class ChatBox extends Component {
   constructor() {
@@ -17,6 +19,7 @@ export default class ChatBox extends Component {
         },
       ],
       update: '',
+      itemList: [],
     };
 
     this.handleSubmit = this.handleSubmit.bind(this);
@@ -38,6 +41,21 @@ export default class ChatBox extends Component {
   }
   handleChange(e) {
     this.setState({ update: e.target.value });
+  }
+
+  getItemListByType = (type) => {
+    axios.get(`http://localhost:8080/inventory`)
+    .then((result) => {
+      const filteredResult = result.data.filter((item) => item.type.toLowerCase() === type);
+      console.log(filteredResult);
+      this.setState({
+        itemList: filteredResult,
+      });
+      console.log(this.state);
+    })
+    .catch((error) => {
+      console.log(error);
+    })
   }
 
   botResponse = () => {
@@ -99,27 +117,28 @@ export default class ChatBox extends Component {
           update: '',
         }))
       );
-    } else if (this.state.update.toLowerCase().includes('apples')) {
+    } else if (this.state.update.toLowerCase().includes('apple')) {
+        let itemImages = [<ItemList />];
         this.setState(
           this.setState((prevState) => ({
             messages: [
               ...prevState.messages,
               {
                 isBot: true,
-                itemList: []
+                message: itemImages,
               },
             ],
             update: '',
           }))
         );
-      } else if (this.state.update.toLowerCase().includes('12123')) {
+      } else if (this.state.update.toLowerCase().includes('honeycrisp')) {
         this.setState(
           this.setState((prevState) => ({
             messages: [
               ...prevState.messages,
               {
                 isBot: true,
-                message: 'When would you like anything else?'
+                message: 'Would you like anything else?'
               },
             ],
             update: '',

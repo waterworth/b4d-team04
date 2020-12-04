@@ -1,45 +1,15 @@
 [
     {
-        "id": "a6eab832-6dad-4be7-8d79-1fe2461f1002",
-        "name": "Red Gala",
-        "type": "Apple",
-        "aisle": "Produce",
-        "soldIn": "singles",
-        "image": "red-gala.jpg",
-        "categoryPath": [
-            "fruit"
-        ],
-        "price": 79,
-        "inStock": [
-            {
-                "quantity": 20,
-                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3"
-            },
-            {
-                "quantity": 20,
-             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe"
-            },
-            {
-                "quantity": 20,
-             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85"
-            },
-            {
-                "quantity": 20,
-             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
-            }
-        ]
-    },
-    {
         "id": "85c55ceb-0724-4e8b-97c8-012faf060da1",
-        "name": "Honeycrisp",
+        "name": "Red Delicious",
         "type": "Apple",
         "aisle": "Produce",
         "soldIn": "singles",
-        "image": "honeycrisp.jpg",
+        "image": "https://i5.walmartimages.com/asr/b7dd36e3-53ee-4391-8d0f-4eaaacfd54bc_3.e525f48c7192f47a7ef9e1f03d425fde.jpeg",
         "categoryPath": [
             "fruit"
         ],
-        "price": 79,
+        "price": 0.79,
         "inStock": [
             {
                 "quantity": 20,
@@ -60,42 +30,12 @@
         ]
     },
     {
-        "id": "2ff01bea-1887-405e-a25b-5dbbdda3e207",
-        "name": "Macintosh",
-        "type": "Apple",
-        "aisle": "Produce",
-        "soldIn": "singles",
-        "image": "macintosh.jpg",
-        "categoryPath": [
-            "fruit"
-        ],
-        "price": 79,
-        "inStock": [
-            {
-                "quantity": 20,
-                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3"
-            },
-            {
-                "quantity": 20,
-             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe"
-            },
-            {
-                "quantity": 20,
-             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85"
-            },
-            {
-                "quantity": 20,
-             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
-            }
-        ]
-    },
-    {
         "id": "822a57f6-4573-4225-8691-5ab5ad2adbaa",
-        "name": "Red Gala",
+        "name": "Honeycrisp",
         "type": "Apple",
         "aisle": "Produce",
         "soldIn": "singles",
-        "image": "red-gala.jpg",
+        "image": "https://i5.walmartimages.com/asr/702be90b-5206-4976-a295-5d9958981971_3.8a72c4483e136753dafc359c5efad3cf.jpeg",
         "categoryPath": [
             "fruit"
         ],
@@ -121,45 +61,15 @@
     },
     {
         "id": "76d973d6-c3e9-4d0b-9ee2-c86a9fd4f87e",
-        "name": "Red Delicious",
+        "name": "Golden Delicious",
         "type": "Apple",
         "aisle": "Produce",
         "soldIn": "singles",
-        "image": "red-delicious.jpg",
+        "image": "https://d2d8wwwkmhfcva.cloudfront.net/800x/d2lnr5mha7bycj.cloudfront.net/product-image/file/large_8409ae0c-50de-4d5e-98ba-2175afb27a08.jpeg",
         "categoryPath": [
             "fruit"
         ],
-        "price": 79,
-        "inStock": [
-            {
-                "quantity": 20,
-                "storeID": "9394dc82-8db8-4102-b5b1-b25fb569ebc3"
-            },
-            {
-                "quantity": 20,
-             "storeID":"e05a6612-8cd9-4592-812d-38be95c7acfe"
-            },
-            {
-                "quantity": 20,
-             "storeID":"b2cde5f1-f1a1-403c-bacf-8fcc545a6e85"
-            },
-            {
-                "quantity": 20,
-             "storeID": "72566634-6a11-4f11-aedc-b16279411835"
-            }
-        ]
-    },
-    {
-        "id": "e447db32-24aa-4791-b562-f28c615f4552",
-        "name": "Fuji",
-        "type": "Apple",
-        "aisle": "Produce",
-        "soldIn": "singles",
-        "image": "fuji.jpg",
-        "categoryPath": [
-            "fruit"
-        ],
-        "price": 79,
+        "price": 0.79,
         "inStock": [
             {
                 "quantity": 20,
@@ -191,7 +101,7 @@
             "greens",
             "vegetable"
         ],
-        "price": 179,
+        "price": 1.79,
         "inStock": [
             {
                 "quantity": 20,
@@ -222,7 +132,7 @@
             "greens",
             "vegetable"
         ],
-        "price": 466,
+        "price": 4.66,
         "inStock": [
             {
                 "quantity": 20,
@@ -253,7 +163,7 @@
             "greens",
             "vegetable"
         ],
-        "price": 247,
+        "price": 2.47,
         "inStock": [
             {
                 "quantity": 20,
@@ -284,7 +194,7 @@
             "greens",
             "vegetable"
         ],
-        "price": 317,
+        "price": 3.17,
         "inStock": [
             {
                 "quantity": 20,
