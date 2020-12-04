@@ -1,13 +1,41 @@
-import React from 'react'
+import React, {Component} from 'react'
 import './ChatBox.scss';
 import SamIconLarge from '../../assets/sam-icon-large.png';
 import ChatIcon from '../../assets/chat-icon.png';
 
-import BotMessage from '../BotMessage/BotMessage';
-import UserMessage from '../UserMessage/UserMessage';
+import MessageList from '../MessageList/MessageList';
 
 
-export default function ChatBox() {
+export default class ChatBox extends Component {
+    constructor(){
+        super();
+        this.state= {
+            messages: [{
+                "isBot": true,
+                "message": "Hi Katie! I am Sam! I am here to make your online shopping easier! How can I help you?",
+            },
+        ],
+        update: '',
+        }
+
+        this.handleSubmit = this.handleSubmit.bind(this);
+        this.handleChange = this.handleChange.bind(this);
+    }
+    handleSubmit(e){
+        e.preventDefault();
+        this.setState(prevState => ({
+            messages: [...prevState.messages, {isBot: false, message: prevState.update} ],
+            update: '',
+        }))
+    }
+
+    
+    handleChange(e){
+        this.setState({update: e.target.value})
+    }
+
+   
+    render(){
     return (
         <main className="chatbox">
 
@@ -17,25 +45,13 @@ export default function ChatBox() {
             <img className="chatbox__logo-right"src={SamIconLarge} alt=""/>
         </section>
 
-        <section className="chatbox__messages">
+        <MessageList messages={this.state.messages}/>
 
-            <BotMessage content="Hi Katie! I am Sam! I am here to make your online shopping easier!
-                How can I help you?" />
-
-            <UserMessage content='Hey Sam! I want to order groceries' />
-
-            <BotMessage content='Sounds great! Would you prefer to order for pick up or delivery?' />
-            
-        </section>
-
-            <section className="chatbox__select">
-                <button className="chatbox__button">Pick up</button>
-                <button className="chatbox__button">Delivery</button>
-            </section>
-            <form className="chatbox__bottom">
-                <textarea className="chatbox__textarea" placeholder="Write a message..."></textarea>
-                <button className="chatbox__send">Send</button>
+            <form onSubmit={this.handleSubmit} id='form' className="chatbox__bottom">
+                <input onChange={this.handleChange} value={this.state.update} className="chatbox__textarea" placeholder="Write a message..."></input>
+                <button type='submit' className="chatbox__send">Send</button>
             </form>
         </main>
     )
+    }
 }
