@@ -1,0 +1,11 @@
+@use './partials/variables' as *;
+@import './partials/itemList';
+
+*{
+    font-family: 'Avenir';
+    box-sizing: border-box;
+}
+
+body{
+    background-color: $walmart-magenta;
+}
